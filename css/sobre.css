@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "alumni-sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    border: 2px solid #A8FFC5;
+    background-color:    #2b4437;
+    margin: 0 auto;
+    width: 100%;
+    height: 10vh;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    margin: 20px;
+    color: #A8FFC5;
+    font-size: 1.7rem;
+}
+
+.logo{
+    color: #fff;
+    font-size: 1.7rem;
+    margin-left: 20px;
+}
+main{
+    background-color: #15231C;
+    width: 100%;
+    height: 500px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;  
+    position: absolute;
+}
+
+ img{
+    display: flex;
+    margin: 0 auto;
+    width: 93%;
+    height: 300px;
+    border: 10px solid white;
+    border-radius: 100px;
+    position: relative;
+    margin-top: 50px;
+}
+
+.texto{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 640px;
+}
+
+.texto h1{
+display: flex;
+margin: 0 auto;
+margin-top: 50px;
+color: #A8FFC5;
+}
+
+.texto h3{
+    color: #fff;
+    font-size: 1.7rem;
+}
+
+.how{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    height: 400px;
+    margin-top: 50px;
+    max-width: 560px;
+}
+
+.how h1{
+    display: flex;
+    margin: 0 auto;
+    border-bottom: 2px solid #15231C;
+    color: #21382d;
+    font-size: 50px;
+}   
+
+.how h3{
+    font-size: 30px;
+}
+
+figure img{
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    height: 500px;
+    border: 2px solid white;
+    border-radius: 100px;
+    box-shadow: 4px 6px 8px white;
+}
+
+
+

@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #15231C;
+    box-sizing: border-box;
+    font-family: "alumni-sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+   
+
+.navbar{
+    display: flex;
+    align-items: center;
+    border: 2px solid #A8FFC5;
+    background-color:    #2b4437;
+    margin: 0 auto;
+    width: 100%;
+    height: 10vh;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    margin: 20px;
+    color: #A8FFC5;
+    font-size: 1.7rem;
+}
+
+.logo{
+    color: #fff;
+    font-size: 1.7rem;
+    margin-left: 20px;
+}
+
+.sentence h1{
+    display: flex;
+    justify-content: center;
+    font-size: 3.2rem;
+    
+}
+
+.title {
+    color: #A8FFC5;
+    margin-top: 50px;
+}
+
+.subtitle{
+    color: #fff;
+}
+
+figure img{
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    height: 500px;
+    border: 2px solid white;
+    border-radius: 100px;
+    box-shadow: 4px 6px 8px white;
+}
+
